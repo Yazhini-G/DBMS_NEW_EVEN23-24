@@ -4,7 +4,6 @@
 ## AIM:
  To study and write DDL commands and different types of constraints.
 ## THEORY
-```
 ### DDL (Data Definition Language)
 * DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema.
 * It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
@@ -52,7 +51,7 @@ CREATE TABLE Table_Name(column_name data_type(size) FOREIGN KEY(column_name) REF
 6. DEFAULT : The DEFAULT constraint is used to insert a default value into a column. The default value will be added to all new records, if no other value is specified. 
 Syntax:
 CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
-```
+
 ## PROCEDURE
 1. Start the program. 
 2. Read the given query.
@@ -77,7 +76,7 @@ CREATE TABLE Employee (eid INTEGER PRIMARY KEY AUTOINCREMENT,name VARCHAR(50),de
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/3135af0b-9d2f-4049-a778-3b461e12d7b5)
 ### Query 3:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/64cb1b20-455b-4852-816f-d11c48a153ab)
-### SQL QUERY: 
+### SQL QUERY:
 ```
 INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY)
 VALUES (1, 'Ramesh', 32, 'Ahmedabad', 2000.00 );
